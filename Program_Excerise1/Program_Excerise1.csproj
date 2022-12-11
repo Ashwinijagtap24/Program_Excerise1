@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program_Excerise1.ClassWork.MethodOverlodingExAdd</StartupObject>
+    <StartupObject>Program_Excerise1.AssignmentQue.EvenNumberFind</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssignmentQue\EvenNumberFind.cs" />
+    <Compile Include="AssignmentQue\NoisArmstronOrNot.cs" />
+    <Compile Include="AssignmentQue\SwapValueOfTwoNo.cs" />
+    <Compile Include="AssignmentQue\TableNumberFromUser.cs" />
     <Compile Include="ClassWork\AbstractExampleOfShape.cs" />
     <Compile Include="ClassWork\EmpDetails.cs" />
     <Compile Include="ClassWork\EmpGrossSalCal.cs" />
     <Compile Include="ClassWork\MethodOverlodingExAdd.cs" />
     <Compile Include="ClassWork\Rectangle.cs" />
-    <Compile Include="ClassWork\Rectangle1.cs" />
-    <Compile Include="ClassWork\Rectangle2.cs" />
     <Compile Include="ClassWork\RefOutParamExample.cs" />
     <Compile Include="ClassWork\SellManager.cs" />
     <Compile Include="ClassWork\StudDetails.cs" />
+    <Compile Include="AssignmentQue\CountTheNoOfDigit.cs" />
     <Compile Include="HomeWork\BookDetails.cs" />
     <Compile Include="HomeWork\StudentDetails.cs" />
     <Compile Include="Program.cs" />

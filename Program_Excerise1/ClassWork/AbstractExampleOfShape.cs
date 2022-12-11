@@ -45,7 +45,7 @@ namespace Program_Excerise1.ClassWork
             }
             public override string ToString()
             {
-                return $"Area of rectangle = {area1}";
+                return $"Area of rect = {area1}";
             }
         }
         public static void Main(string[] args)

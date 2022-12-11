@@ -1,11 +1,11 @@
 ﻿namespace Program_Excerise1.ClassWork
 {
-    public class Rectangle : AbstractExampleOfShape
+    public class Rectangle1 : AbstractExampleOfShape
     {
         private int length;
         private int width;
         private double area;
-        public Rectangle(int length ,int width)
+        public Rectangle1(int length ,int width)
         {
             this.length = length;
             this.width = width;
