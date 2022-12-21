@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program_Excerise1.AssignmentQue.EvenNumberFind</StartupObject>
+    <StartupObject>Program_Excerise1.LogicalAssignment.ExpobaseEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,19 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnagramExample.cs" />
     <Compile Include="AssignmentQue\EvenNumberFind.cs" />
     <Compile Include="AssignmentQue\NoisArmstronOrNot.cs" />
     <Compile Include="AssignmentQue\SwapValueOfTwoNo.cs" />
     <Compile Include="AssignmentQue\TableNumberFromUser.cs" />
-    <Compile Include="ClassWork\AbstractExampleOfShape.cs" />
+    <Compile Include="BegingAndEndArray.cs" />
+    <Compile Include="ClassWork\CollectionExample\NonGenericExample.cs" />
+    <Compile Include="ClassWork\CollectionExample\StackHashQueueExample.cs" />
+    <Compile Include="ClassWork\EmpICompareSal.cs" />
+    <Compile Include="ClassWork\EmpIEnumberableEx.cs" />
+    <Compile Include="FiboExample.cs" />
+    <Compile Include="HomeWork\ExceptionExample\MarksExceptionEx.cs" />
+    <Compile Include="HomeWork\ExceptionExample\StudException.cs" />
+    <Compile Include="HomeWork\StringExample\GenericCollectionExa.cs" />
+    <Compile Include="HomeWork\StringExample\ToggleExample.cs" />
+    <Compile Include="LogicalAssignment\ArrayExa.cs" />
+    <Compile Include="LogicalAssignment\SumOfInt.cs" />
+    <Compile Include="MainMethosProduct.cs" />
+    <Compile Include="MaxTwoDimesionalArray.cs" />
+    <Compile Include="Productdetails.cs" />
+    <Compile Include="SelfStudy\ArrayExap\ArrayLength.cs" />
+    <Compile Include="SelfStudy\DataTpeExample\MinnDataType.cs" />
+    <None Include="ClassWork\AbstractExampleOfShape.cs" />
+    <Compile Include="ClassWork\ArrayExamples\EmployeeExArray.cs" />
+    <Compile Include="ClassWork\ArrayExamples\ExampleOfArray.cs" />
     <Compile Include="ClassWork\EmpDetails.cs" />
     <Compile Include="ClassWork\EmpGrossSalCal.cs" />
     <Compile Include="ClassWork\MethodOverlodingExAdd.cs" />
-    <Compile Include="ClassWork\Rectangle.cs" />
     <Compile Include="ClassWork\RefOutParamExample.cs" />
     <Compile Include="ClassWork\SellManager.cs" />
+    <Compile Include="ClassWork\StringBuiderExa.cs" />
+    <Compile Include="ClassWork\StringExam\StringEx1.cs" />
     <Compile Include="ClassWork\StudDetails.cs" />
     <Compile Include="AssignmentQue\CountTheNoOfDigit.cs" />
+    <Compile Include="ClassWork\TestExtensionEx.cs" />
+    <Compile Include="HomeWork\Array2DEx\A.cs" />
     <Compile Include="HomeWork\BookDetails.cs" />
     <Compile Include="HomeWork\StudentDetails.cs" />
     <Compile Include="Program.cs" />

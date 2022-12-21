@@ -28,12 +28,13 @@ namespace Program_Excerise1.ClassWork
         {
             return $"Area of circle = {area}";
         }
-
+    }
         public class Rectangle : AbstractExampleOfShape
         {
             private int l;
             private int w;
-            public double area1;
+
+                                                                                                           public double area1;
             public Rectangle(int l, int w)
             {
                 this.l = l;
@@ -59,6 +60,6 @@ namespace Program_Excerise1.ClassWork
             Console.ReadLine();
         }
 
-    }
+    
 
 }
