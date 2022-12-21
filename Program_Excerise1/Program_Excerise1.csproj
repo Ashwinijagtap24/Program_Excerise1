@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program_Excerise1.LogicalAssignment.ExpobaseEx</StartupObject>
+    <StartupObject>Program_Excerise1.ClassWork.ArrayExamples.Array2Convert1Array</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,13 +52,21 @@
     <Compile Include="AssignmentQue\SwapValueOfTwoNo.cs" />
     <Compile Include="AssignmentQue\TableNumberFromUser.cs" />
     <Compile Include="BegingAndEndArray.cs" />
+    <Compile Include="ClassWork\AccountDeatils.cs" />
+    <Compile Include="ClassWork\ArrayExamples\Array2Convert1Array.cs" />
+    <Compile Include="ClassWork\BankAccountDetails.cs" />
     <Compile Include="ClassWork\CollectionExample\NonGenericExample.cs" />
     <Compile Include="ClassWork\CollectionExample\StackHashQueueExample.cs" />
     <Compile Include="ClassWork\EmpICompareSal.cs" />
     <Compile Include="ClassWork\EmpIEnumberableEx.cs" />
+    <Compile Include="ClassWork\Exceptionprg\EXcpprg.cs" />
     <Compile Include="FiboExample.cs" />
     <Compile Include="HomeWork\ExceptionExample\MarksExceptionEx.cs" />
     <Compile Include="HomeWork\ExceptionExample\StudException.cs" />
+    <Compile Include="HomeWork\ListExample\BookDetails.cs" />
+    <Compile Include="HomeWork\ListExample\DepartmentList.cs" />
+    <Compile Include="HomeWork\ListExample\DeptDetails.cs" />
+    <Compile Include="HomeWork\ListExample\Productdetails.cs" />
     <Compile Include="HomeWork\StringExample\GenericCollectionExa.cs" />
     <Compile Include="HomeWork\StringExample\ToggleExample.cs" />
     <Compile Include="LogicalAssignment\ArrayExa.cs" />
