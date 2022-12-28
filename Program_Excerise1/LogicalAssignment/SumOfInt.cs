@@ -98,4 +98,20 @@ namespace Program_Excerise1.LogicalAssignment
             Console.ReadLine();
         }
     }
+    // count number of Digit in any no
+    public class CountNo
+    {
+        static void Main(string[] args)
+        {
+            int count = 0;
+            for(int i = 0;i<20;i++)
+            {
+                count++;
+            }
+            Console.WriteLine($"Count = {count}");
+            Console.ReadLine();
+        }
+
+    }
+    
 }

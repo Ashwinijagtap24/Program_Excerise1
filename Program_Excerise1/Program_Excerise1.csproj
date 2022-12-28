@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program_Excerise1.ClassWork.ArrayExamples.Array2Convert1Array</StartupObject>
+    <StartupObject>Program_Excerise1.ClassWork.RefOutParamExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,10 +57,15 @@
     <Compile Include="ClassWork\BankAccountDetails.cs" />
     <Compile Include="ClassWork\CollectionExample\NonGenericExample.cs" />
     <Compile Include="ClassWork\CollectionExample\StackHashQueueExample.cs" />
+    <Compile Include="ClassWork\DelegateEx\DelagtateExample.cs" />
+    <Compile Include="ClassWork\DelegateEx\MultiCastDelegate.cs" />
     <Compile Include="ClassWork\EmpICompareSal.cs" />
     <Compile Include="ClassWork\EmpIEnumberableEx.cs" />
+    <Compile Include="ClassWork\EventDeleExample\StudMarksEventDel.cs" />
     <Compile Include="ClassWork\Exceptionprg\EXcpprg.cs" />
+    <Compile Include="ClassWork\ThreadExample\ThreadCreate.cs" />
     <Compile Include="FiboExample.cs" />
+    <Compile Include="HomeWork\EventAndDelegateEx\BankEXCD.cs" />
     <Compile Include="HomeWork\ExceptionExample\MarksExceptionEx.cs" />
     <Compile Include="HomeWork\ExceptionExample\StudException.cs" />
     <Compile Include="HomeWork\ListExample\BookDetails.cs" />
@@ -70,6 +75,8 @@
     <Compile Include="HomeWork\StringExample\GenericCollectionExa.cs" />
     <Compile Include="HomeWork\StringExample\ToggleExample.cs" />
     <Compile Include="LogicalAssignment\ArrayExa.cs" />
+    <Compile Include="LogicalAssignment\CirCleCalculate.cs" />
+    <Compile Include="LogicalAssignment\DecimalToBinaryEx.cs" />
     <Compile Include="LogicalAssignment\SumOfInt.cs" />
     <Compile Include="MainMethosProduct.cs" />
     <Compile Include="MaxTwoDimesionalArray.cs" />

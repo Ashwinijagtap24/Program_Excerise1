@@ -182,7 +182,115 @@ namespace Program_Excerise1.LogicalAssignment
             Console.ReadLine();
         }
     }
-    // count number of Digit in any no
-   
+
+    //Reverse an array of 5 numbers.
+    class ReverceArray
+    {
+        static void Main(string[] args)
+        {
+            int[] a = new int[5];
+            for(int i=0;i<a.Length;i++)
+            {
+                a[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+            Console.WriteLine("......Original Array....");
+            for(int i=0;i<a.Length;i++)
+            {
+                Console.WriteLine(a[i]);
+            }
+            
+            Console.WriteLine("reverce array");
+            Array.Reverse(a);
+            foreach(var items in a)
+            {
+                Console.WriteLine(items);
+            }
+            Console.ReadLine();
+        }
+    }
+    //Generate Fibonacci series. 0,1, 1, 2, 3, 5,8 ….. k. where k < n . n is entered by user
+    class FiboSeries
+    {
+        static void Main(string[] args)
+        {
+            int f, f1 = 0, f2 = 1;
+            Console.WriteLine("enter the number");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(f1);
+            for (int i =0;i<n;i++)
+            {
+                
+                Console.WriteLine(f2);
+                f = f1;
+                f1 = f2;
+                f2 = f1 + f;
+            }
+            Console.ReadLine();
+        }
+    }
+    //Find duplicate numbers in an array of integers.
+    class DuplicateArrayInt
+    {
+        public void Duplicatenum(int[] arr)
+        {
+            Console.WriteLine("duplicate array");
+            for(int i =0;i<arr.Length;i++)
+            {
+               for(int j=i+1;j<arr.Length;j++)
+                {
+                    if(arr[j] == arr[i])
+                    {
+                        Console.WriteLine(arr[i]);
+                    }
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            int[] a = new int[5];
+            for(int i =0;i<a.Length;i++)
+            {
+                a[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("original array ");
+            for(int i = 0;i<a.Length;i++)
+            {
+                Console.WriteLine(a[i]);
+            }
+            DuplicateArrayInt d = new DuplicateArrayInt();
+            d.Duplicatenum(a);
+            Console.ReadLine();
+        }
+    }
+    //Check if two arrays (of integers) are equal.
+    class TwoArrayEqual
+    {
+        static void Main(string[] args)
+        {
+            int[] a1 = { 2, 4, 6, 8, 10 };
+            int[] b1 = { 3, 6, 9, 4, 8 };
+            List<int> list = new List<int>();
+            
+            for(int i =0;i<a1.Length;i++)
+            {
+                if (!list.Contains(a1[i]))
+                    list.Add(a1[i]);            
+            }
+            Console.WriteLine("*****************");
+            for(int i =0;i<b1.Length;i++)
+            {
+                if (!list.Contains(b1[i]))
+                    list.Add(b1[i]);
+            }
+            list.Sort();
+            Console.WriteLine("****************");
+            foreach(var items in list)
+            {
+                Console.WriteLine(items);
+            }
+            Console.ReadLine();
+        }
+    }
 }
 

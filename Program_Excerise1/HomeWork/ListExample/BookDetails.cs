@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Program_Excerise1.HomeWork.ListExample
 {
-    public enum BookLibraries {ComedyBook,HerrorBook,DramaBook }
+    public enum BookLibraries { ComedyBook, HerrorBook, DramaBook }
     public class Book
     {
         public string BookName { set; get; }
@@ -16,9 +16,9 @@ namespace Program_Excerise1.HomeWork.ListExample
     }
     public class BookDetails
     {
-        
+
         public string Author { set; get; }
-        
+
     }
     public class MainBookDetails
     {
@@ -49,16 +49,35 @@ namespace Program_Excerise1.HomeWork.ListExample
                     booklist = {new BookDetails { Author = "William Shakespear"} }
                 }
             };
-            foreach(Book items in blist)
+            foreach (Book items in blist)
             {
                 Console.WriteLine($"{items.BookName} -> {items.BookPrice} -> {items.bookLibraries}");
-                foreach(BookDetails b in items.booklist)
+                foreach (BookDetails b in items.booklist)
                 {
-                    Console.WriteLine("\tAuthor name = " +b.Author);
+                    Console.WriteLine("\tAuthor name = " + b.Author);
                 }
             }
             Console.ReadLine();
 
         }
     }
+    /* public enum CategoriesType { herror,comedy,story}
+      public class BookDetails
+      {
+          public int Id { set; get; }
+          public string name { set; get; }
+          public CategoriesType CategoriesType;
+      }
+
+
+      public  class BookMainDemo
+      {
+          public static void Main(string[] args)
+          {
+              List<BookDetails> b = new List<BookDetails>()
+              {
+              };
+
+          }
+      }*/
 }

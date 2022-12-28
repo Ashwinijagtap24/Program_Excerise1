@@ -10,8 +10,6 @@ namespace Program_Excerise1.HomeWork.ListExample
     public class Product
     {
         public string Company { set; get; }
-       
-
         public ProductType ProductType;
         public List<DetailsProduct> dlist = new List<DetailsProduct>();
     }
